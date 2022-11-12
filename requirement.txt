@@ -6,3 +6,6 @@ color
 vobrant
 dark mode
 video calls
+payment
+Send money
+Received money
