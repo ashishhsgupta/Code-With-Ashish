@@ -20,7 +20,9 @@ header {
     font-size: 18px;
     padding: 16px;
     background-color: lightgray;
-    margin: 17px;
+    margin: 0 0 0 20px;
+    position: relative;
+    top: -31px;
 }
 img {
     width: 74px;
