@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+}
+.container2 {
+    background-color: rgb(17, 16, 16);
+    height: 462px;
+    width: 331px;
+    margin-top: 20px;
+    border-radius: 11px;
+    padding-top: 1px;
+}
+.result{
+    background-color: rgb(37, 131, 56);
+    height:70px;
+    width: 290px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    text-align: end;
+    padding: 23px;
+    border-radius: 8px;
+    border-color: black;
+    color: white;
+}
+.middle {
+    background-color: rgb(37, 131, 56);
+    width: 290px;
+    height: 340px;
+    margin-top: 10px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.btn-group{
+    display: flex;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    
+}

@@ -45,7 +45,7 @@
    border-radius: 19px;
    color: #f7f1f1;
    background-color: black;
-   text-transform: none;
+   size-adjust: auto;
 }
 .btn2{
    width: 162px;
