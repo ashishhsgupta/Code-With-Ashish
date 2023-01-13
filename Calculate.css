@@ -1,117 +1,22 @@
-.container1{
-  background-color: rgb(15, 15, 15);
-  height: 500px;
-  width: 300px;
-  margin: 8px;
-  margin-left: 106px;
-  padding-top: 20px;
-  border-radius: 10px;
+ .calculator{
+  height: 490px;
+    width: 350px;
+  background-color: blueviolet;
+  margin: 17px 0px 0px 107px;
+  border-radius: 10px; 
+  /* box-shadow: inset 5px 5px 12px rgb(225, 219, 219);
+                    5px 5px 12px rgba(0,0,0,.16); */
+  display:grid;
+  grid-template-columns:repeat(4,87px);
 }
-#out{
-  width: 250px;
-  height: 64px;
-  margin-left: 24px;
-  border-radius: 15px;
-  background-color: darkgrey;
-  border: 2px solid yellow;
-}
-/* .center{
-    background-color: rgb(52, 60, 66);;
-    height: 70px;
-    width:250px;
-   margin-left: 24px;
-  text-align: right;
-  border-radius: 10px;
- color: white;
- font-size: 40px;
- padding-right: 14px;
- border-style: inset;
-} */
-.middle{
-    background-color:rgb(52,60,66);
-    height: 380px;
-    width:250px;
-  border-radius: 10px;
-  margin-left: 24px;
-  text-align: right;
-  margin-top: 10px;
-  border-style: inset;
-}
-.btn1{
-  border-radius: 50%;
-  color:white;
-  padding: 8px;
-  margin: -9px;
-  margin-top: 25px;
-  margin-right: 13px;
-  border-block-color: inherit;
-  width: 50px;
-  height: 53px;
-  background-color: black;
-  font-size: 22px;
-}
-.btn2{
-  border-radius: 50%;
-  color:white;
-  padding: 8px;
-  margin: -9px;
-  margin-top: 25px;
-  margin-right: 13px;
-  border-block-color: inherit;
-  width: 50px;
-  height: 53px;
-  background-color: black;
-  font-size: 22px;
-}
-.btn3{
-  border-radius: 50%;
-  color:white;
-  padding: 8px;
-  margin: -9px;
-  margin-top: 25px;
-  margin-right: 13px;
-  border-block-color: inherit;
-  width: 50px;
-  height: 53px;
-  background-color: black;
-  font-size: 22px;
-}
-.btn4{
-  border-radius: 50%;
-  color:white;
-  padding: 8px;
-  margin: -9px;
-  margin-top: 25px;
-  margin-right: 13px;
-  border-block-color: inherit;
-  width: 50px;
-  height: 53px;
-  background-color: black;
-  font-size: 22px;
-}
-.btnm{
-  border-radius: 28%;
-    color: white;
-    padding: 8px;
-    margin: -9px;
-    margin-top: 25px;
-    margin-right: 13px;
-    border-block-color: inherit;
-    width: 107px;
-    height: 53px;
-    background-color: black;
-    font-size: 22px;
-}
-.btn5{
-  border-radius: 50%;
-  color:white;
-  padding: 8px;
-  margin: -9px;
-  margin-top: 25px;
-  margin-right: 13px;
-  border-block-color: inherit;
-  width: 50px;
-  height: 53px;
-  background-color: black;
-  font-size: 22px;
+input{
+  grid-column: span 4;
+  height: 80px;
+  width: 320px;
+  background-color: rgba(219, 230, 69, 0.782);
+  box-shadow: inset -5px -5x 12px #ffffff,
+              inset 5px 5px 12px rgb(170, 35, 35);
+  border: none;
+  border-radius: 30px;
+  color: rgb(75, 72, 72);
 }
